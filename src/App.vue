@@ -28,7 +28,7 @@ export default {
       this.loading = true
       this.error = false
       fetch(
-        `https://api.weatherapi.com/v1/current.json?key=69ed7b91ab4b4d4f9f282327242604&q=${this.searchQuery}`,
+        `https://api.weatherapi.com/v1/current.json?key=32a6596c63de4a5ea7b45408252904=${this.searchQuery}`,
       )
         .then((response) => response.json())
         .then((data) => {
